@@ -1,0 +1,26 @@
+--CreateWindow--
+
+local settings = library:CreateWindow("Settings",{flag = "pencere adi"}
+
+=================================================================================================================================
+
+-_-Toggle-_-
+--Kullanım--
+local t = main:Toggle('Aimbot', {flag = "toggleaim"},
+function()
+  if main.flags.toggleaim == true then
+    aim = 1
+
+  else
+    aim = 0
+  end
+end)
+
+
+=================================================================================================================================
+
+--Button--
+
+local b = guns:Button("No Recoil", function()
+Kod
+end)
